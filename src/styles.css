@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.emojiSpam {
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  display: inline;
+}
+
+.container {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+#input {
+  outline: none;
+  border-radius: 1rem;
+  padding: 0rem 1rem;
+  width: 30%;
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#output {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  text-transform: capitalize;
+}

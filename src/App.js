@@ -5,7 +5,7 @@ import emoji from "emoji";
 // var emoji = require('emoji.json');
 
 export default function App() {
-  const [out, setOutput] = useState("");
+  const [out, setOutput] = useState("enter an emoji or choose from below");
 
   const emojiDic = emoji["EMOJI_MAP"];
 
